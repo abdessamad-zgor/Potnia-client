@@ -21,10 +21,10 @@ function Navbar() {
             <AppBar position="sticky" variant="outlined"  className={classes.root}>
                 <img src={Logo} alt="brand-title" />
                 <ul>
-                    <li>Home</li>
-                    <li>Services</li>
+                    <li><Link to="/">Home</Link> </li>
+                    <li><Link to='/services'>Services</Link> </li>
                     <li>Our Work</li>
-                    <li><AccountCircleOutlinedIcon /></li>
+                    <li><AccountCircleOutlinedIcon/></li>
                 </ul>
             </AppBar>
         </div>

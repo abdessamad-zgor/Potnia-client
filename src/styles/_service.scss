@@ -1,11 +1,11 @@
 .service{
     h4{
-        color: darken($color: $primary-color, $amount: 20%);
+        color: darken($color: $primary-color, $amount: 50%);
         opacity: 0.6;
         justify-self: center;
     }
     h1{
         justify-self: center;
     }
-    margin: 0.5vw;
+    margin: 1vw;
 }

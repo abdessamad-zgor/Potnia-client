@@ -1,0 +1,60 @@
+.Home{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    .tag{
+        color: gainsboro;
+        margin-bottom: 0.5vw;
+    }
+    .head-title{
+        font-size: 4vw;
+        margin-top: 1vw;
+    }
+    .description{
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        justify-content: center;
+    }
+    img{
+        max-height: 50vw;
+    }
+    .home-header{
+        display: flex;
+        justify-content: space-between;
+        box-shadow: 0px 1px rgb(186, 186, 186);
+    }
+    .call-to-action{
+        height: 3vw;
+        color:black;
+        font-weight: 500;
+        border-radius: 1vw;
+        border: black;
+        box-shadow: 0.1vw 0.2vw rgb(154, 194, 167);
+        background-color: $primary-color;
+        margin: 1vw;
+    }
+    .services-home{
+        margin: 1vw;
+        display: flex;
+    }
+    .home-2{
+        margin-top: 0.5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        box-shadow: 0px 1px rgb(186, 186, 186);
+    }
+    .title{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        h1{
+            font-size: 3vw;
+            color: darken($primary-color, 40%)
+        }
+    }
+}

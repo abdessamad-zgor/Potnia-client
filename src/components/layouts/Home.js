@@ -17,13 +17,17 @@ function Home(props) {
                 <img src={Main} alt="illustration" />
             </section>
             <section className="home-2">
-                <div className="services-home">
-
-                <Service title="web developement" description="brand specific web application to help boost your sales and push your business to the next level" path="/"/>
-                <Service title="digital marketing" description="get a first place hold in the market with an air thight strategy and great follow through"/>
+                <div className="title">
+                    <h1>Services</h1>
                 </div>
-                
+                <div className="services-home">
+                    <Service title="web developement" description="brand specific web application to help boost your sales and push your business to the next level" path="/services" />
+                    <Service title="digital marketing" description="get a first place hold in the market with an air thight strategy and great follow through" />
+                </div>
+                <button className='call-to-action'>See More</button>
             </section>
+
+
         </div>
     )
 }

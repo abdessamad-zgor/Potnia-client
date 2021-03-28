@@ -1,18 +1,17 @@
 import PropTypes from 'prop-types';
-import {Card, CardActions, CardContent, makeStyles} from '@material-ui/core';
+import { Card, CardContent, makeStyles } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 
-const useStyles = makeStyles((theme)=>({
+const useStyles = makeStyles((theme) => ({
     root: {
         display: 'flex',
         flexDirection: 'column',
         maxWidth: '40vw',
-        backgroundColor: 'inherit',
-        "&:hover":{
-            opacity: 0.9
+        "&:hover": {
+            opacity: 0.8
         }
     },
-    content:{
+    content: {
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'center'
@@ -24,14 +23,13 @@ function Service(props) {
     return (
         <div className="service">
             <Link to={props.path}>
-            <Card className={classes.root}>
-                <CardContent className={classes.content}>
-                    <h1>{props.title}</h1>
-                    <h4>{props.description}</h4>
-                </CardContent>
-            </Card>
+                <Card className={classes.root}>
+                    <CardContent className={classes.content}>
+                        <h1>{props.title}</h1>
+                        <h4>{props.description}</h4>
+                    </CardContent>
+                </Card>
             </Link>
-            
         </div>
     )
 }
