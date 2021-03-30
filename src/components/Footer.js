@@ -6,6 +6,9 @@ function Footer() {
             <div className="brand-footer">
                 <img src={Logo} alt="brand-logo" />
                 <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam minus ratione debitis modi</h6>
+                <ul>
+                    <li><i></i></li>
+                </ul>
 
             </div>
             <div className="services-footer"></div>

@@ -23,7 +23,7 @@ function Navbar() {
                 <ul>
                     <li><Link to="/">Home</Link> </li>
                     <li><Link to='/services'>Services</Link> </li>
-                    <li>Our Work</li>
+                    <li>Shop</li>
                     <li><AccountCircleOutlinedIcon/></li>
                 </ul>
             </AppBar>
